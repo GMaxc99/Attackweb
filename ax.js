@@ -36,7 +36,7 @@ async function maintenance() {
       axios(config).then(function (re){
         console.log("Chawit",re.status)
       }).catch(function (error){
-        console.log("Chawit ",error.response.status)
+        console.log("Chawit x hpmh ",error.response.status)
       })
     }
     else if(process.argv[3] == 'proxy'){
